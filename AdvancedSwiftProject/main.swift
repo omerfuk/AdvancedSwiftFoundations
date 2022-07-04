@@ -47,14 +47,44 @@ copyOfClassJames.age = 52
 //Copy -> new object -> 2 Objects
 
 
-//Function vs Mutating FUnction
+//Function vs Mutating Function
 
-print(classJames.age)
-classJames.happyBirthday()
-print(classJames.age)
+//print(classJames.age)
+//classJames.happyBirthday()
+//print(classJames.age)
+//
+//
+//print(structJames.age)
+//structJames.happyBirthday()
+//print(structJames.age)
 
 
-print(structJames.age)
-structJames.happyBirthday()
-print(structJames.age)
+//TUPLE
 
+let myTuple = (1,3)
+print(myTuple.0)
+
+var myTuple2 = (1,3,5)
+myTuple2.2 = 10
+print(myTuple2.2)
+
+let myTuple3 = ("Atil", 100)
+
+let myTuple4 = (10, [10,20,30])
+print(myTuple4.1[1])
+
+let myString: String?
+
+let predefinedTuple: (String, String, Int)
+
+predefinedTuple.0 = "Omer"
+predefinedTuple.1 = "KUF"
+predefinedTuple.2 = 21
+
+print(predefinedTuple)
+
+
+let newTuple = (name:"James", metallica: true)
+print(newTuple.name)
+print(newTuple.metallica)
+print(newTuple)
