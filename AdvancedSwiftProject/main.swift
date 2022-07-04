@@ -31,17 +31,30 @@ structJames.age = 51
 let copyOfClassJames = classJames
 var copyOfStructJames = structJames
 
-print(copyOfClassJames.age)
-print(copyOfStructJames.age)
+//print(copyOfClassJames.age)
+//print(copyOfStructJames.age)
 
 copyOfStructJames.age = 52
 copyOfClassJames.age = 52
 
-print(copyOfClassJames.age)
-print(copyOfStructJames.age)
+//print(copyOfClassJames.age)
+//print(copyOfStructJames.age)
 
 //Reference type -> Class
 //copy -> Same Object new reference -> 1 object 2 references
 
 //Value Type -> Struct
 //Copy -> new object -> 2 Objects
+
+
+//Function vs Mutating FUnction
+
+print(classJames.age)
+classJames.happyBirthday()
+print(classJames.age)
+
+
+print(structJames.age)
+structJames.happyBirthday()
+print(structJames.age)
+

@@ -18,4 +18,8 @@ class MusicianClass {
         self.age = age
         self.instrument = instrument
     }
+    
+    func happyBirthday() {
+        self.age += 1
+    }
 }
