@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let classJames = MusicianClass(name: "James", age: 50, instrument: "Guitarre")
 
+print(classJames.age)
+
+let structJames = MusicianStruct(name: "James", age: 50, instrument: "Guitarre")
+
+print(structJames.age)

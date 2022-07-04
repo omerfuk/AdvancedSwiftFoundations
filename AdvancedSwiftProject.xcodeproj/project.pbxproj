@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE491719287314E300824D4D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE491718287314E300824D4D /* main.swift */; };
+		DE4917202873150A00824D4D /* MusicianStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE49171F2873150A00824D4D /* MusicianStruct.swift */; };
+		DE4917222873151500824D4D /* MusicianClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4917212873151500824D4D /* MusicianClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		DE491715287314E300824D4D /* AdvancedSwiftProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvancedSwiftProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE491718287314E300824D4D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DE49171F2873150A00824D4D /* MusicianStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicianStruct.swift; sourceTree = "<group>"; };
+		DE4917212873151500824D4D /* MusicianClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicianClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				DE491718287314E300824D4D /* main.swift */,
+				DE49171F2873150A00824D4D /* MusicianStruct.swift */,
+				DE4917212873151500824D4D /* MusicianClass.swift */,
 			);
 			path = AdvancedSwiftProject;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE491719287314E300824D4D /* main.swift in Sources */,
+				DE4917222873151500824D4D /* MusicianClass.swift in Sources */,
+				DE4917202873150A00824D4D /* MusicianStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
