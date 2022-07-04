@@ -114,5 +114,36 @@ func convertToIntegerIF(string:String) -> Int {
     }
 }
 
-print(convertToIntegerIF(string: myNumber))
-print(convertToIntegerGuard(string: myNumber))
+//print(convertToIntegerIF(string: myNumber))
+//print(convertToIntegerGuard(string: myNumber))
+
+
+//Switch
+
+let myNum = 11
+
+//remainder
+
+let myRemainder = myNum % 4
+print(myRemainder)
+
+if myRemainder == 1 {
+    print("it's 1")
+}
+else if myRemainder == 2 {
+    print("it's 2")
+}
+else if myRemainder == 3 {
+    print("it's 3")
+}
+
+
+switch myRemainder {
+    
+case 0:
+    print("its 0// No error occured while calculating remainder")
+case 1...3:
+    print("its 1--3")
+default:
+    break
+}
